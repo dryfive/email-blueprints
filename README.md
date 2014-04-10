@@ -10,16 +10,14 @@ For clarification on the coding practices shown in these emails, or for general 
 Contents
 --------
 
-**/modular-template-patterns** contains a single template built out of modular blocks of common design patterns.
-
-**/responsive-templates** contains a collection of responsive / mobile-friendly email templates with various layouts.
-
-**/templates** contains a collection of fixed-width email templates with various layouts.
++**/modular-template-patterns** contains a single template built out of modular blocks of common design patterns (not converted).
++**/responsive-templates** contains a collection of responsive / mobile-friendly email templates with various layouts.
++**/templates** contains a collection of fixed-width email templates with various layouts (not converted).
 
 Template Instructions
 ---------------------
 
 1. Ensure that your Editor is set as AcyMailing Editor (Configuration>>Interfaces>>Editor). Available since version 4.2.0.
 2. In AcyMailing create a new newsletter template.
-3. Copy everything between the STYLES tags and paste it in the Stylesheet section.
-4. Switch to Source on the editor and copy everything between the BODY tags and paste it there.
+3. Copy everything between the /* /\/\/\/\/\/\/\/\/ STYLES /\/\/\/\/\/\/\/\/ */ tags and paste it in the Stylesheet section.
+4. Switch to Source on the editor and copy everything between the <!-- BODY // --> tags and paste it there.
